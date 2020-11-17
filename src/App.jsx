@@ -26,7 +26,6 @@ class App extends Component {
     return (
       <div>
         <h1>BMI Calculator</h1>
-        <img src= "./data/images/bmifoto.jpeg">alt-text </img><br></br>
         <Form
           weight={this.state.weight}
           height={this.state.height}
